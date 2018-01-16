@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<html lang="en-EN">
+  <head>
+
+    
+
+    <link href='https://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    
+    
+    
+
+
+
+
+
+<meta name="description" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content=""/>
+<meta property="og:type" content="article"/>
+
+
+    
+
+
+
+
+    <meta property="og:url" content="http://prabook.com:443/web/search.html"/>
+
+
+<meta name="keywords" content=""/>
+
+
+
+
+
+
+
+
+
+    <title>
+        Prabook  | Search
+    </title>
+
+    
+
+
+<script>
+	/** For Google Analitics! */
+	var googleAnalyticsAccount = 'UA-29188747-1';
+</script>
+
+
+	<script type="text/javascript" src="/web/js/google-analytics.js"></script>	
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+<script>
+    Ext={
+        buildSettings:{
+            "scopeResetCSS": true  //do own scoping
+        }
+    };
+</script>
+
+
+
+  
+	
+	  
+	  
+	    <script type="text/javascript" src="/web/js/orange-home-combined.min.js"></script>
+	   
+	
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+
+
+    
+
+
+<script>
+	/** For Google Analitics! */
+	var googleAnalyticsAccount = 'UA-29188747-1';
+</script>
+
+
+	<script type="text/javascript" src="/web/js/google-analytics.js"></script>	
+
+
+
+
+
+  <!-- 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="/web/js/jquery/no-conflict.js"></script>    
+   -->
+ 
+	
+	    
+	    
+			<link type="text/css" href="/web/js/ext-js/resources/css/ext-all.css" rel="stylesheet"/>	    
+    		<link type="text/css" href="/web/css/orange-uikit-combined.min.css" rel="stylesheet"/>
+	    
+	 
+
+  </head>
+  
+  
+
+
+
+
+<script type="text/javascript">
+    function signinCallback(authResult) {
+    	var taget = Prabook.base.getSavedRequestUrl();
+		//     	console.log('taget =' + taget);
+    	if (taget) {
+            helper.onSignInCallback(authResult, '/web', taget);    		
+    	} else {
+            helper.onSignInCallback(authResult, '/web','/web/home.html');    		
+    	}
+    }
+
+    (function () {
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
+        po.src = 'https://apis.google.com/js/client:plusone.js?onload=render';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
+    })();
+
+    function render() {
+        gapi.signin.render('customBtn', {
+            'callback': 'signinCallback',
+            'clientid': '387981162981-6n92k7ib1kgla7mrtg684rgoib6a1jl2',
+            'cookiepolicy': 'single_host_origin',
+            'requestvisibleactions': 'http://schemas.google.com/AddActivity',
+            'scope': 'https://www.googleapis.com/auth/plus.login'
+        });
+        gapi.signin.render('gplusId', {
+            'callback': 'signinCallback',
+            'clientid': '387981162981-6n92k7ib1kgla7mrtg684rgoib6a1jl2',
+            'cookiepolicy': 'single_host_origin',
+            'requestvisibleactions': 'http://schemas.google.com/AddActivity',
+            'scope': 'https://www.googleapis.com/auth/plus.login'
+        });
+    }
+</script>
+
+  <body>
+    <div class="all">
+      
+
+
+
+
+
+
+<div id="fb-root"></div>
+<script type="text/javascript" src="https://connect.facebook.net/en_US/all.js"></script>
+
+  
+  
+    <script type="text/javascript" src="/web/js/orange-FacebookAuth.min.js"></script>
+   
+
+<script type="text/javascript">
+	FacebookAuth.init("356234251068879", "/web", {
+		welcome : 'Welcome,',
+		logout : 'Log out'
+	});
+	
+   		FacebookAuth.tryAutoLogin();
+   	
+  //remove facebook connection if user already authenticated
+   	
+    
+</script>
+<!-- START new .header -->
+
+	
+		<form id="searchForm" method="get" onsubmit="Prabook.fn.checkFields();" >
+	
+	
+	  <header class="header">
+	      
+
+
+
+
+
+
+<div class="layout-grid header__layout-grid">
+
+
+	<div class="layout-grid__col layout-grid__col_aside">
+       <div class="service-alert">
+          <span class="service-alert__label">
+          	<a href="/web/home.html">Home</a>
+          </span>
+       </div>
+    </div>
+
+
+     <div class="layout-grid__col layout-grid__col_content">
+             <div class="service-wrap">
+                 <div class="service">
+                 
+                   <div class="service__item">
+                      
+
+
+
+
+
+
+
+<a data-popup-for=userbar-login-tooltip class="service__link service__text" href="#needLogin">
+	<span class="icon icon_person service__icon"></span>
+	Log In
+</a>
+
+
+<!--   
+    <a data-popup-for="userbar-login-tooltip" href="#needLogin" class="service-nav-link">
+    	<div class="service-nav-link-icon person">
+			<span class="icon person"></span>
+		</div>
+        Log In
+    </a>
+
+-->
+
+
+
+
+<div class="userbar-tooltip userbar-tooltip-r userbar-login-tooltip">
+    <p>Once logged in, you can add biography in the database</p><span class="userbar-tooltip-corner-r"></span>
+</div>
+<span class="login-nav anonymous" data-popup-for="login-nav-popup"></span>
+ 
+ 
+
+                   </div>
+                   <div class="service__item">
+                      <div class="menu">
+                         <a href="#" class="menu__link">
+                           <i class="menu__icon fa fa-bars"></i>
+                           <i class="menu__icon menu__icon_arrow-down fa fa-chevron-down"></i>
+                         </a>
+                         <div class="dropdown menu__dropdown">
+                            <div class="dropdown__inner">
+                               
+
+
+
+
+
+
+
+
+        <nav class="dropdown__nav">
+            <a class="dropdown__link" href="/web/categories.html#activity">Directories</a>
+            <a class="dropdown__link" href="/web/recently-created.html">Newly added</a>
+            
+            
+            
+        </nav>
+        
+        
+        <div class="menu-popup-corner"></div>
+    <div class="menu-popup-corner"></div>
+
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                 </div>
+             </div>
+     </div>
+<div class="layout-grid__col"></div>
+</div>
+
+	      
+	      
+	      		
+
+
+
+
+
+
+
+
+<div class="layout-grid header__layout-grid">
+            <div class="layout-grid__col layout-grid__col_aside">
+                    <div class="logo-wrap">
+                        <h1 class="logo">
+                            <a href="/web/home.html">
+                                <img src="/web/img/prabook.png">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            <div class="layout-grid__col layout-grid__col_content">
+                    <div class="search header__search">
+                        <div class="search__item">
+                        
+						
+						
+						
+							<form id="searchForm" method="get" onsubmit="Prabook.fn.checkFields();" >
+                            <div class="search__input-group">
+                                <div id="generalId"></div>
+                                <div class="search__btn-group">
+
+ 								
+
+
+
+
+
+
+
+
+<div class="search__options">
+	                <a data-popup-for="advanced-nav-popup" 
+	                   data-popup-hide-events="click"
+	                   data-popup-bind="Prabook.search.navMaskBind(e)"  >
+						<span class="text">Advanced</span>
+						<i class="fa fa-chevron-down"></i>
+	                </a>
+    <div class="dropdown search__filter advanced-nav-popup">
+        <div class="dropdown__inner">
+            <ul class="filter-list">
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Activity
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="activityId" class="filter-list__input-wrap"></div>                
+                </li>
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Nationality
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="nationalityId" class="filter-list__input-wrap"></div>                
+                </li>                
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Ethnicity
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="ethnicityId" class="filter-list__input-wrap"></div>                
+                </li>
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Religion
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="religionId" class="filter-list__input-wrap"></div>                
+                </li>
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Political views
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="partyAffiliationId" class="filter-list__input-wrap"></div>                
+                </li>
+                
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Education
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="educationSearch" class="filter-list__data-wrap filter-list__input" >
+	                	<div id="educationId"></div>
+                        <table class="search-education-period">
+                            <tr>
+                                <td>
+                                    <span>From</span>
+                                    <div id="educationDateFromYear" class="search-date"></div>
+                                </td>
+                                <td>
+                                    <span>To</span>
+                                    <div id="educationDateToYear" class="search-date"></div>
+                                </td>
+                            </tr>
+                        </table>	                	
+   	                </div>                
+                </li>                
+                
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Work
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="workId" class="filter-list__input-wrap">
+	                    
+	                    <input type="text" name="work" class="form-input filter-list__input" onclick="Prabook.base.searchEventTracking('workFilter')" placeholder="e.g. Administrative Analyst"/>	                
+	                </div>                
+                </li>
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Award
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="awardId" class="filter-list__input-wrap">
+                        
+	                    <input type="text" name="award" class="form-input filter-list__input" onclick="Prabook.base.searchEventTracking('workFilter')" placeholder="e.g. Fields Medal"/>	                
+	                </div>                
+                </li>                
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Gender
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div class="filter-list__input-wrap">
+	                    <select id="genderId" name="gender" onclick="Prabook.base.searchEventTracking('genderFilter')" onchange="Prabook.search.onChange(this);" class="form-input filter-list__input">
+	                        <option value="">Any gender</option>
+	                        <option value="male">Male</option>
+	                        <option value="female">Female</option>
+	                    </select>	                
+	                </div>                
+                </li>
+                
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Birth date
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="birthDateSearch" class="filter-list__data-wrap filter-list__input" >
+	                	<table class="search-date-period">
+                        	<tr>
+                            	<td>
+                                	<span>From</span>
+                                	<div class="search-full-date">
+	                                    <div id="birthDateFrom" onclick="Prabook.base.searchEventTracking('birthDateFromFilter')"></div>
+	                                    <input type="hidden" id="birthDateFromYearId" name="birthDateFromYear">
+	                                    <input type="hidden" id="birthDateFromMonthId" name="birthDateFromMonth">
+	                                    <input type="hidden" id="birthDateFromDayId" name="birthDateFromDay">	                                    
+                                	</div>
+                            	</td>
+                        	</tr>
+                        	<tr>
+	                            <td>
+                                	<span>To</span>
+                                	<div class="search-full-date">
+	                                    <div id="birthDateTo" onclick="Prabook.base.searchEventTracking('birthDateToFilter')"></div>
+	                                    <input type="hidden" id="birthDateToYearId" name="birthDateToYear">
+	                                    <input type="hidden" id="birthDateToMonthId" name="birthDateToMonth">
+	                                    <input type="hidden" id="birthDateToDayId" name="birthDateToDay">	                                    
+                                	</div>
+                            	</td>
+                        	</tr>
+                    	</table>
+	                </div>                
+                </li>
+
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Birth place
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="birthPlaceId" class="filter-list__input-wrap"></div>                
+                </li>                
+                
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Death date
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="deathDateSearch" class="filter-list__data-wrap filter-list__input" >
+	                	<table class="search-date-period">
+                        	<tr>
+                            	<td>
+                                	<span>From</span>
+                                	<div class="search-full-date">
+	                                    <div id="deathDateFrom" onclick="Prabook.base.searchEventTracking('deathDateFromFilter')"></div>
+	                                    <input type="hidden" id="deathDateFromYearId" name="deathDateFromYear">
+	                                    <input type="hidden" id="deathDateFromMonthId" name="deathDateFromMonth">
+	                                    <input type="hidden" id="deathDateFromDayId" name="deathDateFromDay">	                                    
+                                	</div>
+                            	</td>
+                        	</tr>
+                        	<tr>
+	                            <td>
+                                	<span>To</span>
+                                	<div class="search-full-date">
+	                                    <div id="deathDateTo" onclick="Prabook.base.searchEventTracking('deathDateToFilter')"></div>
+	                                    <input type="hidden" id="deathDateToYearId" name="deathDateToYear">
+	                                    <input type="hidden" id="deathDateToMonthId" name="deathDateToMonth">
+	                                    <input type="hidden" id="deathDateToDayId" name="deathDateToDay">	                                    
+                                	</div>
+                            	</td>
+                        	</tr>
+                    	</table>
+	                </div>                
+                </li>                
+                
+                <li class="filter-list__item">
+	                <a class="dropdown__link filter-list__link">
+	                	Death place
+	                	<i class="fa fa-angle-down filter-list__icon"></i>
+	                </a>
+	                <div id="deathPlaceId" class="filter-list__input-wrap"></div>                
+                </li>
+                
+	                            
+                
+                <li class="filter-list__item filter-list__link">
+	                <a class="dropdown__link" onclick="Prabook.search.initSearchFields();">
+	                	Clear
+	                </a>
+                </li>                
+            </ul>
+        </div>
+    </div>
+</div>                                    
+
+ 
+                                    <div class="search__btn" onclick="searchViewEventTracker('general_search_Id-inputEl'); Prabook.search.submitSearchForm()">
+                                        <span class="icon icon_loupe"></span>
+                                    </div>
+                                </div>
+                            </div>
+						
+                            
+                        </div>
+                        <div class="search__item">
+                            <a class="btn btn_create search__btn-submit" href="/web/person-edit.html">
+                                <span class="icon icon_cross"></span>
+                                <span>Create Biography</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <div class="layout-grid__col"></div>
+        </div>
+
+
+	
+	
+	      			
+		   
+	  </header>
+<!-- END new .header -->
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/web/js/orange-search-new.min.js"></script>
+   
+
+
+<script type="text/javascript">
+
+    Ext.onReady(function() {
+        //collapseAsideComponents();
+        Ext.History.init();
+        
+        // init Prabook.search.searchComboBoxConfig
+        Prabook.search.searchComboBoxConfig.emptyText = 'Enter any word and find people';
+        Prabook.search.searchComboBoxConfig.url = '/web/query-suggestions.json';
+        Prabook.search.searchComboBoxConfig.registerQueryUrl = '/web/register-query.json'; 
+        Prabook.search.searchComboBoxConfig.inputClass = 'search-field form__input search__form-input';
+        
+        Prabook.base.createGeneralSearchComboBox(Prabook.search.searchComboBoxConfig);        
+        
+//         createGeneralSearchComboBox('general', 'generalId', '/web/query-suggestions.json', null, 'Enter any word and find people', function() {
+//             var input = document.getElementsByName('general')[0];
+//             if (input.defaultValue.trim() != input.value.trim()) {
+//                 input.defaultValue = input.value;
+//                 Prabook.search.submitSearchForm(true);
+//             }
+//         }, '/web/register-query.json', 'search-field form__input search__form-input', null);
+
+        Prabook.search.createAutocompleteComboBox('activity', 'activityId', '/web/catalog-dictionary/activity.json', 196, null, 'name', 'e.g. BUSINESS & ECONOMY');
+        Prabook.search.createAutocompleteComboBox('nationality', 'nationalityId', '/web/catalog-dictionary/nationality.json', 196, null, 'name', 'e.g. United States');
+        Prabook.search.createAutocompleteComboBox('ethnicity', 'ethnicityId', '/web/catalog-dictionary/ethnicity.json', 196, null, 'name', 'e.g. European');
+        Prabook.search.createAutocompleteComboBox('religion', 'religionId', '/web/catalog-dictionary/religion.json', 196, null, 'name', 'e.g. MODERN RELIGION');
+        Prabook.search.createAutocompleteComboBox('partyAffiliation', 'partyAffiliationId', '/web/dictionary/party/autocomplete.json', 196, null, 'name', 'e.g. Social Democratic Party');        
+        Prabook.search.createAutocompleteComboBox('birthPlace', 'birthPlaceId', '/web/administrative-unit/administrativeUnitAll.json', 196, 'placeModel', 'fullName', 'e.g. United States');
+        Prabook.search.createAutocompleteComboBox('deathPlace', 'deathPlaceId', '/web/administrative-unit/administrativeUnitAll.json', 196, 'placeModel', 'fullName', 'e.g. United States');
+        Prabook.search.createBirtDeatFromToCalendars();
+
+        Prabook.search.createAutocompleteComboBox('education', 'educationId', '/web/education.json', 196, null, 'name', 'e.g. The University of Sydney');        
+        var curYear = (new Date()).getFullYear();
+        Prabook.search.createYearComboBox(curYear, 'educationDateFromYear', 'educationDateFromYear');
+        Prabook.search.createYearComboBox(curYear + 5, 'educationDateToYear', 'educationDateToYear');
+
+        Prabook.search.appendElemntsListeners();
+//        moveBrief();
+
+        Prabook.search.initSearchFields(Ext.History.getToken(), true);
+        Ext.History.on('change', function(token) {
+        	Prabook.search.initSearchFields(token);
+        	//console.log("Ext.History.on('change'... -> + Prabook.search.initSearchFields(" + token + ")");
+        });
+        
+        //var inputs = document.forms['searchForm'].getElementsByTagName("input");
+        //var select = document.forms['searchForm'].getElementsByTagName("select");
+    });
+
+    Prabook.search.baseUrl = '/web/';
+
+    Prabook.search.messages['search.property.view'] = 'views';
+    Prabook.search.messages['search.notFound'] = 'No profiles found';
+    Prabook.search.messages['search.found.size'] = 'Found {0} profiles';
+    Prabook.search.messages['calendar.addDay'] = 'Add day';
+    Prabook.search.messages['calendar.addMonth'] = 'Add month';
+    Prabook.search.messages['calendar.bc'] = 'B.C.';
+    Prabook.search.messages['search.advanced.born'] = 'Born';
+    Prabook.search.messages['search.advanced.nationality'] = 'Nationality';
+    Prabook.search.messages['search.advanced.ethnicity'] = 'Ethnicity';
+    Prabook.search.messages['search.advanced.activity'] = 'Activity';
+
+    Prabook.search.messages['months.january'] = 'January';
+    Prabook.search.messages['months.february'] = 'February';
+    Prabook.search.messages['months.march'] = 'March';
+    Prabook.search.messages['months.april'] = 'April';
+    Prabook.search.messages['months.may'] = 'May';
+    Prabook.search.messages['months.june'] = 'June';
+    Prabook.search.messages['months.july'] = 'July';
+    Prabook.search.messages['months.august'] = 'August';
+    Prabook.search.messages['months.september'] = 'September';
+    Prabook.search.messages['months.october'] = 'October';
+    Prabook.search.messages['months.november'] = 'November';
+    Prabook.search.messages['months.december'] = 'December';
+
+</script>
+
+<input id="pageNumber" name="pageNumber" style="display: none;">
+
+<div class="body">
+    <div id="search-loader" class="search-loader" style="visibility:hidden;">
+        <img src="/web/assets/ajax-loader.gif">
+    </div>
+    <div class="content-wrapper-search clf">
+    
+    
+    
+
+
+
+<script type="text/template" id="search-result-content">
+    
+    <div id="result<@- number @>"); class="result">
+      <h3 class="result__title">
+        <a href="<@- personHref @>" class="result__title-link">
+          <span><@= name @> <@= surname @></span>
+          <span class="title-delimiter">|</span>
+          <span><@= who @></span>
+        </a>
+      </h3>
+      <div class="birth">
+        <span class="birth__date"><@= birthDateStr2 @></span>
+        <span class="birth__age"><@= age @></span>
+      </div>
+      <p class="result__text">
+		<@= resultText @>
+      </p>
+    </div>
+</script>
+
+<script type="text/template" id="brief-template">
+   
+                        <div class="tooltip tooltip_arrow_r tooltip_aside ">
+                            <div class="aside__item aside__item_tooltip">
+                                <figure class="brief">
+                                    <img class="brief__img" src="<@= avatar.src @>" alt="<@= avatar.alt @>" >
+                                    <div class="brief__content">
+                                        <h2 class="title title_size_m brief__title brief_title_color">
+                                            <@= name @> <@= surname @>
+                                        </h2>
+                                        <p class="brief__text brief__text_activity">
+                                        	<span><@= nationalities@></span>
+											<span>
+												<@ _.forEach(activities, function(activity, index, collection) { 
+													if (collection.length === (index + 1)) {@>
+	            										<a href="<@= activity.href@>" class="activity-text__selected"><@= activity.title@></a>
+													<@} else {@>
+	            										<a href="<@= activity.href@>" class="activity-text__selected"><@= activity.title + ',' @></a>
+													<@}@>
+        										<@ }); @>
+											</span>
+                                        </p>
+                                        <p class="brief__text brief__text_info">
+                                            <span class="brief__text-item"><@= birthDateStr2 @> <span><@= age @></span></span>
+                                            <span class="brief__text-item"><@= birthPlace@></span>
+                                        </p>
+                                        <p class="brief__text">
+											<@= career @>
+                                        </p>
+                                    </div>
+                                    <div class="view-more-wrap">
+                                        <a class="view-more" href="<@- personHref @>">
+                                            <span>More</span>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </div>
+							<@ if (alsoSearched.length) { @>
+                            <div class="aside__item aside__item_tooltip">
+                                <div class="panel panel_aside">
+                                    <h3 class="panel__title panel__title_scissors">
+                                        <span class="panel__title-text">People Also Searched For</span>
+                                        <span class="icon icon_scissors panel__title-icon"></span>
+                                    </h3>
+                                    <div class="aside__profiles">
+                                        <ul class="profiles profiles_aside">
+        								<@ _.forEach(alsoSearched, function(also) { @>
+                                            <li class="profiles__item">
+                                                <a class="profiles__link" href="<@- also.href @>">
+                                                    <img src="<@- also.src @>" alt="<@= also.fullName @>" class="profiles__img">
+                                                    <span class="profiles__link-text"><@= also.fullName @></span>
+                                                </a>
+                                            </li>
+        								<@ }); @>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+        					<@ } @>
+                        </div>
+</script>
+
+<script type="text/template" id="аlso-search-items">
+    
+    <li class="profiles__item">
+      <a class="profiles__link" href="<@= itemLink @>">
+        <img src="<@= itemImg @>" alt="<@= itemImgAlt @>" class="profiles__img">
+        <span class="profiles__link-text"><@= itemText @></span>
+      </a>
+    </li>
+</script>
+
+<script type="text/template" id="total-result-items">
+    
+  <div id = "filter-set" class="filter">
+    <h5 id="result-size" class="filter__label"><@= totalSize @></h5>
+	  <ul class="filter__tag-list">
+    	<@ for (var key in filterList) { 
+		     if (key !== 'general') { @>
+               <li class="filter__tag">
+                 <span title="<@= key.replace(/([a-z](?=[A-Z]))/g,'$1 ') @>" class="filter__tag-text" tagname="<@= key @>" tagValue="<@= filterList[key] @>" ><@= filterList[key] @></span>
+                  <a class="filter__tag-close">&#10005;</a>
+               </li>
+        <@    }
+		   } @>
+      </ul>
+  </div>
+</script>
+
+    
+            <div class="content">
+                <div class="layout-grid layout-grid_content">
+ 					<aside id="brief" class="layout-grid__col layout-grid__col_aside aside">
+                    </aside>                   
+                    <div class="layout-grid__col layout-grid__col_content">
+                        <div id="search-results" class="search-results-wrap">
+                            <div id="results" class="search-results"></div>
+
+				            <div id="pagination" class="pagination" style="visibility: hidden;">
+				                <div class="pagination__btn-group">
+				                    <button type="button" id="paginationFirst" class="btn pagination__btn">
+				                    	<i class="fa fa-angle-double-left"></i> first
+				                    </button>
+				                    <button type="button" id="paginationBack" class="btn pagination__btn">
+				                    	<i class="fa fa-angle-left"></i> back
+				                    </button>
+				                </div>
+				                <nav id="paginationUl" class="pagination__pages">
+				                </nav>                
+				                <div class="pagination__btn-group">
+				                    <button type="button" id="paginationNext" class="btn pagination__btn">next
+				                     	<i class="fa fa-angle-double-right"></i>
+				                     </button>
+				                    <button type="button" id="paginationLast" class="btn pagination__btn">last
+				                    	 <i class="fa fa-angle-right"></i>
+				                    </button>
+				                </div>
+				            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </div>
+</div>
+</form>
+<form id="history-form" class="x-hide-display">
+    <input type="hidden" id="x-history-field"/>
+    <iframe id="x-history-frame"></iframe>
+</form>
+      
+
+
+
+
+
+<script type="text/javascript">
+	function share(url, title, description) {
+		var sharedUrl = document.location.href;
+		//		window.open(url+encodeURIComponent(sharedUrl)+'&t='+encodeURIComponent(description));
+		window.open(url + sharedUrl + '&t=' + description);
+	}
+
+	function shareLinkedIn(url, title, description) {
+		var sharedUrl = document.location.href;
+		//		window.open(url+encodeURIComponent(sharedUrl)+'&summary='+encodeURIComponent(description)+'&title='+encodeURIComponent(title));
+		window.open(url + sharedUrl + '&summary=' + description + '&title=' + title);
+	}
+
+	function shareTwitter(url, title, description) {
+		var sharedUrl = document.location.href;
+		//		window.open(url+encodeURIComponent(sharedUrl)+'&text='+encodeURIComponent(title + ' ' + description));
+		window.open(url + sharedUrl + '&text=' + title + ' ' + description);
+	}
+</script>
+
+
+
+<!-- Start new .footer -->
+<footer class="footer">
+	<div class="layout-grid">
+		<div class="layout-grid__col"></div>
+		<div class="layout-grid__col layout-grid__col_content">
+			
+			
+			
+			
+			<div class="footer__item">
+				<ul class="social social_theme_s">
+					<li>
+						<a class="social__link  " href="#"
+							onclick="Prabook.base.shareEventTracker('clShareFB ');share('https://www.facebook.com/sharer.php?u=', 'Prabook', 'Prabook is a place where you can find information about people of the past and present as well as add your own articles about people you admire, your relatives and friends.')">
+							<span class="social__icon-wrap"> 
+							<span class="icon icon_facebook-small"></span>
+							
+						</span>
+						</a>
+					</li>
+					<li>
+						<a class="social__link  " href="#"
+							onclick="Prabook.base.shareEventTracker('clShareTwitter ');shareTwitter('https://twitter.com/share?url=', 'Prabook', 'Prabook is a place where you can find information about people of the past and present as well as add your own articles about people you admire, your relatives and friends.')">
+							<span class="social__icon-wrap"> 
+							<span class="icon icon_twitter-small"></span> 
+							
+						</span>
+						</a>
+					</li>
+					<li>
+						<a class="social__link  " href="#"
+							onclick="Prabook.base.shareEventTracker('clShareLlinkedin ');shareLinkedIn('https://www.linkedin.com/shareArticle?mini=true&url=', 'Prabook', 'Prabook is a place where you can find information about people of the past and present as well as add your own articles about people you admire, your relatives and friends.')">
+							<span class="social__icon-wrap"> 
+							<span class="icon icon_linkedin-small"></span> 
+							
+						</span>
+						</a>
+					</li>
+					<li>
+						<a class="social__link  " href="#"
+							onclick="Prabook.base.shareEventTracker('clShareLGplus ');share('https://plus.google.com/share?url=', 'Prabook', 'Prabook is a place where you can find information about people of the past and present as well as add your own articles about people you admire, your relatives and friends.')">
+							<span class="social__icon-wrap"> 
+							<span class="icon icon_google-small"></span> 
+							
+						</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__item">
+				<nav class="nav-extra">
+					<a class="nav-extra__link" href="/web/about.html"> About
+					</a> <a class="nav-extra__link" href="/web/faq.html"> FAQ
+					</a> <a class="nav-extra__link"
+						href="https://prabook.com/web/mobile"
+						id="mobileVersionLink"> Mobile Version
+					</a> <a class="nav-extra__link" href="/web/disclaimer.html"> Disclaimer
+					</a> <a class="nav-extra__link" href="/web/privacy-policy.html"> Privacy Policy
+					</a> <a class="nav-extra__link" href="/web/contact.html"> Contacts
+					</a>
+				</nav>
+			</div>
+			<div class="footer__item">
+				<div class="copyright">
+					<p class="copyright__text">Prabook is a registered trademark of World Biographical Encyclopedia, Inc.</p>
+					<p class="copyright__text copyright__text_version">
+						Version
+						2.0.19.5389</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="layout-grid__col"></div>
+	</div>
+</footer>
+
+
+<!-- End new .footer -->
+      <div name="popup" style="display: none"></div>
+    </div>
+  </body>
+  
+</html>
