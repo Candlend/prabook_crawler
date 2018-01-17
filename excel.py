@@ -25,7 +25,8 @@ def process(i):
     wtable.write(i,35,"%.2f%%" % (celebrity["reliability"]*100))
     wtable.write(i,36,name)
     wtable.write(i,37,celebrity['name'])
-
+    wdata.save(path)
+    
 rdata = xlrd.open_workbook(sys.argv[1])
 wdata = copy(rdata)
 rtable = rdata.sheets()[0]
@@ -45,4 +46,5 @@ print ('save position: ' + path)
 print ("the lower limit of reliability: ",limit)
 pool = Pool(processes=4)
 pool.map(process,range(start,end))
-wdata.save(path)
+
+

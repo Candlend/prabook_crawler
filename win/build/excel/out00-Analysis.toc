@@ -1,0 +1,1509 @@
+(['C:\\Users\\Candlend\\Desktop\\prabook_crawler\\excel.py'],
+ ['C:\\Users\\Candlend\\Desktop\\prabook_crawler',
+  'C:\\Users\\Candlend\\Desktop\\prabook_crawler'],
+ ['codecs'],
+ [],
+ [],
+ [],
+ False,
+ False,
+ '3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 18:11:49) [MSC v.1900 64 bit (AMD64)]',
+ [('pyi_rth_multiprocessing',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('excel',
+   'C:\\Users\\Candlend\\Desktop\\prabook_crawler\\excel.py',
+   'PYSOURCE')],
+ [('multiprocessing.popen_fork',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.semaphore_tracker',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\semaphore_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\runpy.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\datetime.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\stat.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\struct.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\__future__.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\difflib.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ast.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\inspect.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\cmd.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\bdb.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\opcode.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\dis.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\codeop.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\code.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\glob.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\shlex.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\platform.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\tty.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ssl.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\optparse.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\uu.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\quopri.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\calendar.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\base64.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\bisect.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\random.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\bz2.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\_compression.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\gzip.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\shutil.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\socket.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\pdb.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\string.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\doctest.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\gettext.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\argparse.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\pprint.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\pickle.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\warnings.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\signal.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\threading.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\selectors.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\os.py',
+   'PYMODULE'),
+  ('enum',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\enum.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\copy.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('crawler',
+   'C:\\Users\\Candlend\\Desktop\\prabook_crawler\\crawler.py',
+   'PYMODULE'),
+  ('Levenshtein',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\Levenshtein\\__init__.py',
+   'PYMODULE'),
+  ('regex',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\regex.py',
+   'PYMODULE'),
+  ('_regex_core',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\_regex_core.py',
+   'PYMODULE'),
+  ('requests',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('urllib3.packages.ordered_dict',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\packages\\ordered_dict.py',
+   'PYMODULE'),
+  ('urllib3.packages',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\packages\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.packages.ssl_match_hostname',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\packages\\ssl_match_hostname\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.packages.ssl_match_hostname._implementation',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\packages\\ssl_match_hostname\\_implementation.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.selectors',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\selectors.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.request',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\request.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\uuid.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('netbios',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\win32\\lib\\netbios.py',
+   'PYMODULE'),
+  ('urllib3.packages.six',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\packages\\six.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('cgi',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\cgi.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports.makefile',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\packages\\backports\\makefile.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\packages\\backports\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('chardet',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\__init__.py',
+   'PYMODULE'),
+  ('chardet.version',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\version.py',
+   'PYMODULE'),
+  ('chardet.universaldetector',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\universaldetector.py',
+   'PYMODULE'),
+  ('chardet.sbcsgroupprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\sbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.langturkishmodel',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\langturkishmodel.py',
+   'PYMODULE'),
+  ('chardet.hebrewprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\hebrewprober.py',
+   'PYMODULE'),
+  ('chardet.charsetprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\charsetprober.py',
+   'PYMODULE'),
+  ('chardet.langhebrewmodel',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\langhebrewmodel.py',
+   'PYMODULE'),
+  ('chardet.langthaimodel',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\langthaimodel.py',
+   'PYMODULE'),
+  ('chardet.langbulgarianmodel',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\langbulgarianmodel.py',
+   'PYMODULE'),
+  ('chardet.langgreekmodel',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\langgreekmodel.py',
+   'PYMODULE'),
+  ('chardet.langcyrillicmodel',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\langcyrillicmodel.py',
+   'PYMODULE'),
+  ('chardet.sbcharsetprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\sbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.mbcsgroupprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\mbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.euctwprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\euctwprober.py',
+   'PYMODULE'),
+  ('chardet.mbcssm',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\mbcssm.py',
+   'PYMODULE'),
+  ('chardet.chardistribution',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\chardistribution.py',
+   'PYMODULE'),
+  ('chardet.jisfreq',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\jisfreq.py',
+   'PYMODULE'),
+  ('chardet.big5freq',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\big5freq.py',
+   'PYMODULE'),
+  ('chardet.gb2312freq',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\gb2312freq.py',
+   'PYMODULE'),
+  ('chardet.euckrfreq',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\euckrfreq.py',
+   'PYMODULE'),
+  ('chardet.euctwfreq',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\euctwfreq.py',
+   'PYMODULE'),
+  ('chardet.codingstatemachine',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\codingstatemachine.py',
+   'PYMODULE'),
+  ('chardet.mbcharsetprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\mbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.big5prober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\big5prober.py',
+   'PYMODULE'),
+  ('chardet.cp949prober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\cp949prober.py',
+   'PYMODULE'),
+  ('chardet.euckrprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\euckrprober.py',
+   'PYMODULE'),
+  ('chardet.gb2312prober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\gb2312prober.py',
+   'PYMODULE'),
+  ('chardet.eucjpprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\eucjpprober.py',
+   'PYMODULE'),
+  ('chardet.jpcntx',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\jpcntx.py',
+   'PYMODULE'),
+  ('chardet.sjisprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\sjisprober.py',
+   'PYMODULE'),
+  ('chardet.utf8prober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\utf8prober.py',
+   'PYMODULE'),
+  ('chardet.latin1prober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\latin1prober.py',
+   'PYMODULE'),
+  ('chardet.escprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\escprober.py',
+   'PYMODULE'),
+  ('chardet.escsm',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\escsm.py',
+   'PYMODULE'),
+  ('chardet.enums',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\enums.py',
+   'PYMODULE'),
+  ('chardet.charsetgroupprober',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\charsetgroupprober.py',
+   'PYMODULE'),
+  ('chardet.compat',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\chardet\\compat.py',
+   'PYMODULE'),
+  ('urllib3',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('lxml',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\lxml\\__init__.py',
+   'PYMODULE'),
+  ('xlutils.copy',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlutils\\copy.py',
+   'PYMODULE'),
+  ('xlutils',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlutils\\__init__.py',
+   'PYMODULE'),
+  ('xlutils.filter',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlutils\\filter.py',
+   'PYMODULE'),
+  ('xlutils.compat',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlutils\\compat.py',
+   'PYMODULE'),
+  ('xlwt.Style',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Style.py',
+   'PYMODULE'),
+  ('xlwt.compat',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\compat.py',
+   'PYMODULE'),
+  ('xlwt.BIFFRecords',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\BIFFRecords.py',
+   'PYMODULE'),
+  ('xlwt.UnicodeUtils',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\UnicodeUtils.py',
+   'PYMODULE'),
+  ('xlwt.Formatting',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Formatting.py',
+   'PYMODULE'),
+  ('xlutils.margins',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlutils\\margins.py',
+   'PYMODULE'),
+  ('xlutils.display',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlutils\\display.py',
+   'PYMODULE'),
+  ('xlwt',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\__init__.py',
+   'PYMODULE'),
+  ('xlwt.Column',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Column.py',
+   'PYMODULE'),
+  ('xlwt.Row',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Row.py',
+   'PYMODULE'),
+  ('xlwt.Cell',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Cell.py',
+   'PYMODULE'),
+  ('xlwt.Worksheet',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Worksheet.py',
+   'PYMODULE'),
+  ('xlwt.Workbook',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Workbook.py',
+   'PYMODULE'),
+  ('xlwt.CompoundDoc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\CompoundDoc.py',
+   'PYMODULE'),
+  ('xlwt.ExcelFormula',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\ExcelFormula.py',
+   'PYMODULE'),
+  ('xlwt.ExcelFormulaLexer',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\ExcelFormulaLexer.py',
+   'PYMODULE'),
+  ('xlwt.ExcelFormulaParser',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\ExcelFormulaParser.py',
+   'PYMODULE'),
+  ('xlwt.ExcelMagic',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\ExcelMagic.py',
+   'PYMODULE'),
+  ('xlwt.antlr',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\antlr.py',
+   'PYMODULE'),
+  ('xlwt.Bitmap',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Bitmap.py',
+   'PYMODULE'),
+  ('xlwt.Utils',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlwt\\Utils.py',
+   'PYMODULE'),
+  ('xlrd',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\__init__.py',
+   'PYMODULE'),
+  ('xlrd.xlsx',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\xlsx.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xlrd.formatting',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\formatting.py',
+   'PYMODULE'),
+  ('xlrd.xldate',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\xldate.py',
+   'PYMODULE'),
+  ('xlrd.book',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\book.py',
+   'PYMODULE'),
+  ('xlrd.compdoc',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\compdoc.py',
+   'PYMODULE'),
+  ('xlrd.sheet',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\sheet.py',
+   'PYMODULE'),
+  ('xlrd.formula',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\formula.py',
+   'PYMODULE'),
+  ('xlrd.biffh',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\biffh.py',
+   'PYMODULE'),
+  ('xlrd.timemachine',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\timemachine.py',
+   'PYMODULE'),
+  ('xlrd.info',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\xlrd\\info.py',
+   'PYMODULE')],
+ [('api-ms-win-crt-stdio-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python36.dll',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\python36.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('ucrtbase.dll', 'D:\\Software\\Typora\\ucrtbase.dll', 'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('_decimal',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_multiprocessing',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('select',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('Levenshtein._levenshtein',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\Levenshtein\\_levenshtein.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('_regex',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\_regex.pyd',
+   'EXTENSION'),
+  ('win32wnet',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\win32\\win32wnet.pyd',
+   'EXTENSION'),
+  ('lxml.etree',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\lxml\\etree.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml._elementpath',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\lxml\\_elementpath.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'D:\\Software\\Typora\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('pywintypes36.dll',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\pypiwin32_system32\\pywintypes36.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\Candlend\\Desktop\\prabook_crawler\\build\\excel\\base_library.zip',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\weak.pem',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\certifi\\weak.pem',
+   'DATA'),
+  ('certifi\\old_root.pem',
+   'C:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python36_64\\lib\\site-packages\\certifi\\old_root.pem',
+   'DATA')],
+ [])
