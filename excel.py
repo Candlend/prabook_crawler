@@ -16,7 +16,7 @@ def process(i):
     wtable.write(i,10,celebrity['Education'])
     wtable.write(i,11,celebrity['Career'])
     wtable.write(i,12,celebrity['Personality'])
-    wtable.write(i,13,celebrity['Connections-Married']))
+    wtable.write(i,13,celebrity['Connections-Married'])
     wtable.write(i,14,celebrity['father'])
     wtable.write(i,15,celebrity['mother'])
     wtable.write(i,16,celebrity['spouse'])

@@ -1,0 +1,51 @@
+missing module named 'multiprocessing.forking' - imported by /usr/local/lib/python3.6/dist-packages/PyInstaller-3.3.1-py3.6.egg/PyInstaller/loader/rthooks/pyi_rth_multiprocessing.py
+missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes
+missing module named multiprocessing.TimeoutError - imported by multiprocessing, multiprocessing.pool
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing, multiprocessing.connection
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing, multiprocessing.connection
+missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn
+missing module named multiprocessing.get_start_method - imported by multiprocessing, multiprocessing.spawn
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /home/candlend/scrapy/excel.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /home/candlend/scrapy/excel.py
+missing module named _winreg - imported by platform, /home/candlend/scrapy/excel.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, /home/candlend/scrapy/excel.py
+missing module named 'java.lang' - imported by platform, /home/candlend/scrapy/excel.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, /home/candlend/scrapy/excel.py
+missing module named msvcrt - imported by subprocess, getpass, multiprocessing.spawn, multiprocessing.popen_spawn_win32, /home/candlend/scrapy/excel.py
+missing module named _winapi - imported by subprocess, multiprocessing.reduction, multiprocessing.connection, multiprocessing.heap, multiprocessing.popen_spawn_win32, /home/candlend/scrapy/excel.py
+missing module named winreg - imported by platform, mimetypes, urllib.request, /home/candlend/scrapy/excel.py
+missing module named urllib.proxy_bypass - imported by urllib, requests.compat
+missing module named urllib.getproxies - imported by urllib, requests.compat
+missing module named urllib.unquote_plus - imported by urllib, requests.compat
+missing module named urllib.quote_plus - imported by urllib, requests.compat
+missing module named urllib.unquote - imported by urllib, requests.compat
+missing module named urllib.quote - imported by urllib, requests.compat
+missing module named urllib.urlencode - imported by urllib, urllib3.request, requests.compat
+missing module named _dummy_threading - imported by dummy_threading, /home/candlend/scrapy/excel.py
+missing module named nt - imported by os, ntpath, shutil, /home/candlend/scrapy/excel.py
+missing module named 'org.python' - imported by copy, /home/candlend/scrapy/excel.py, xml.sax
+missing module named org - imported by pickle, /home/candlend/scrapy/excel.py
+missing module named httplib - imported by urllib3.connection, requests.compat
+missing module named StringIO - imported by xlutils.compat, six, requests.compat
+missing module named Cookie - imported by requests.compat
+missing module named cookielib - imported by requests.compat
+missing module named urllib2 - imported by requests.compat
+missing module named urlparse - imported by urllib3.poolmanager, requests.compat
+missing module named simplejson - imported by requests.compat
+runtime module named six.moves - imported by urllib3.util.response, urllib3.response
+missing module named backports - imported by urllib3.packages.ssl_match_hostname
+missing module named _abcoll - imported by urllib3.packages.ordered_dict
+missing module named dummy_thread - imported by urllib3.packages.ordered_dict
+missing module named thread - imported by urllib3.packages.ordered_dict
+missing module named 'ctypes.macholib' - imported by ctypes.util
+missing module named netbios - imported by uuid
+missing module named win32wnet - imported by uuid
+missing module named Queue - imported by urllib3.connectionpool
+missing module named 'requests.packages.urllib3' - imported by requests, requests.compat, requests.exceptions, requests.models, requests.sessions, requests.adapters
+missing module named errorhandler - imported by xlutils.filter
+missing module named guppy - imported by xlutils.filter
+missing module named elementtree - imported by xlrd.xlsx
+missing module named cElementTree - imported by xlrd.xlsx
+missing module named cStringIO - imported by xlrd.timemachine
+missing module named copy_reg - imported by cStringIO

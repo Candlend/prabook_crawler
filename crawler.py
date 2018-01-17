@@ -8,6 +8,7 @@ import regex as re
 import Levenshtein
 
 def crawl(name, number, strict, limit):
+    # print(name)
     print ("[%d] Crawling..." % number)
     celebrity = {'Education':'','Personality':'','Background':'','Birthday':'','Birthplace':'','Foreign':'','Career':'','Connections-Married':'', \
     'father':'','mother':'','spouse':'','how many children':'','children':'','name':'','reliability':0}
@@ -16,6 +17,7 @@ def crawl(name, number, strict, limit):
     r1=requests.get(url,params=p)
     for eachresult in r1.json()['result']:
         eachname= eachresult["fullName"].replace("<mark>","").replace("</mark>","")
+        # print (eachname)
         eachreliability = Levenshtein.ratio(eachname.lower().replace('.',''),name.lower().replace('.',''))
         if eachreliability > celebrity["reliability"]:
             celebrity["reliability"] = eachreliability
